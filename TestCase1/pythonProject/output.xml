@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-02-26T15:26:24.712559" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Python - Pruebas\TestCase1\pythonProject\TestCases\Taks1\Test.robot">
+<test id="s1-t1" name="Register new user" line="12">
+<kw name="Open new Browser">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:25.132358" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-26T15:26:25.132139" elapsed="3.123735"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-02-26T15:26:28.257106" elapsed="0.123662"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:25.131130" elapsed="3.250738"/>
+</kw>
+<kw name="Go Register Page">
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:28.383967" level="INFO">Opening url 'https://demo.evershop.io/'</msg>
+<arg>${URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-02-26T15:26:28.383967" elapsed="1.196007"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:29.581098" level="INFO">Clicking link '//a[contains(@href, "/account/login")]'.</msg>
+<arg>//a[contains(@href, "/account/login")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:29.579996" elapsed="0.820185"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:32.401718" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:30.401128" elapsed="2.000897"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:32.403141" level="INFO">Clicking link '//a[contains(@href, "/account/register")]'.</msg>
+<arg>//a[contains(@href, "/account/register")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:32.402025" elapsed="0.950739"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:35.353756" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:33.352764" elapsed="2.000992"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:28.382866" elapsed="6.970890"/>
+</kw>
+<kw name="Register new user">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:35.357803" level="INFO">Typing text 'MiUsuario3' into text field 'name=full_name'.</msg>
+<arg>name=full_name</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:35.356561" elapsed="0.231127"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:35.590013" level="INFO">Typing text 'miusuario3@example.com' into text field 'name=email'.</msg>
+<arg>name=email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:35.588862" elapsed="0.230885"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:35.821989" level="INFO">Typing text 'MiContraseña' into text field 'name=password'.</msg>
+<arg>name=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:35.820836" elapsed="0.216398"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:36.039378" level="INFO">Clicking button 'css:button[type="button"]'.</msg>
+<arg>css:button[type="button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:36.038380" elapsed="0.146699"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:35.355568" elapsed="0.829511"/>
+</kw>
+<kw name="Select Product 1">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:38.187509" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:36.187374" elapsed="2.000135"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:38.189595" level="INFO">Clicking link '//a[contains(@href, "/men/nike-air-zoom-pegasus-35-146")]'.</msg>
+<arg>//a[contains(@href, "/men/nike-air-zoom-pegasus-35-146")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:38.188555" elapsed="1.063244"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:39.253922" level="INFO">Clicking link '//a[text()="M"]'.</msg>
+<arg>//a[text()="M"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:39.252837" elapsed="0.119716"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:39.374027" level="INFO">Clicking link '//a[text()="Black"]'.</msg>
+<arg>//a[text()="Black"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:39.373273" elapsed="0.095587"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:40.470069" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:39.469364" elapsed="1.001210"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:40.470695" level="INFO">Clicking button 'css:button[type="button"]'.</msg>
+<arg>css:button[type="button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:40.470695" elapsed="0.161944"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:41.634329" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:40.632639" elapsed="1.001690"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:41.635429" level="INFO">Clicking link '//a[text()="Continue Shopping"]'.</msg>
+<arg>//a[text()="Continue Shopping"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:41.635429" elapsed="0.128638"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:43.766452" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:41.765224" elapsed="2.001228"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:43.767619" level="INFO">Clicking link '//a[contains(@href, "/")]'.</msg>
+<arg>//a[contains(@href, "/")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:43.767619" elapsed="0.601537"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:36.186299" elapsed="8.182857"/>
+</kw>
+<kw name="Select Product 2">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:45.373567" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:44.372457" elapsed="1.001110"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:45.374731" level="INFO">Clicking link '//a[contains(@href, "/mix-and-match-chuck-taylor-all-star-118")]'.</msg>
+<arg>//a[contains(@href, "/mix-and-match-chuck-taylor-all-star-118")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:45.374633" elapsed="0.704381"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:47.080357" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:46.080204" elapsed="1.000153"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:47.081533" level="INFO">Clicking link '//a[text()="L"]'.</msg>
+<arg>//a[text()="L"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:47.081533" elapsed="0.126426"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:47.210217" level="INFO">Clicking link '//a[text()="Grey"]'.</msg>
+<arg>//a[text()="Grey"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:47.209218" elapsed="0.129795"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:48.340279" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:47.340106" elapsed="1.000173"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:48.341453" level="INFO">Clicking button 'css:button[type="button"]'.</msg>
+<arg>css:button[type="button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:48.341453" elapsed="0.118688"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:49.461286" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:48.461138" elapsed="1.000148"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:49.462354" level="INFO">Clicking link '//a[text()="Continue Shopping"]'.</msg>
+<arg>//a[text()="Continue Shopping"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:49.461286" elapsed="0.109898"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:51.572603" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:49.572181" elapsed="2.000422"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:51.573599" level="INFO">Clicking link '//a[contains(@href, "/")]'.</msg>
+<arg>//a[contains(@href, "/")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:51.573599" elapsed="0.659813"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:44.371276" elapsed="7.863117"/>
+</kw>
+<kw name="Select Product 3">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:53.237903" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:52.237009" elapsed="1.000894"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:53.238967" level="INFO">Clicking link '//a[contains(@href, "/geography-class-chuck-taylor-all-star-81")]'.</msg>
+<arg>//a[contains(@href, "/geography-class-chuck-taylor-all-star-81")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:53.237903" elapsed="0.713801"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:54.954154" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:53.952765" elapsed="1.001389"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:54.956328" level="INFO">Clicking link '//a[text()="X"]'.</msg>
+<arg>//a[text()="X"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:54.955324" elapsed="0.100360"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:55.056681" level="INFO">Clicking link '//a[text()="White"]'.</msg>
+<arg>//a[text()="White"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:55.055684" elapsed="0.111991"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:56.169984" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:55.168762" elapsed="1.001222"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:56.171045" level="INFO">Clicking button 'css:button[type="button"]'.</msg>
+<arg>css:button[type="button"]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:56.169984" elapsed="0.131599"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:57.303415" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:56.302162" elapsed="1.001253"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:57.304493" level="INFO">Clicking link '//a[text()="Continue Shopping"]'.</msg>
+<arg>//a[text()="Continue Shopping"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:57.303415" elapsed="0.126626"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:26:59.430769" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:26:57.430537" elapsed="2.000232"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:26:59.431889" level="INFO">Clicking link '//a[contains(@href, "/cart")]'.</msg>
+<arg>//a[contains(@href, "/cart")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:26:59.430769" elapsed="1.019433"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:52.235843" elapsed="8.215531"/>
+</kw>
+<kw name="CheckOut">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-02-26T15:27:01.453815" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-02-26T15:27:00.453526" elapsed="1.000289"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2024-02-26T15:27:01.454926" level="INFO">Clicking link '//a[contains(@href, "/checkout")]'.</msg>
+<arg>//a[contains(@href, "/checkout")]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2024-02-26T15:27:01.454926" elapsed="1.670122"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:27:00.452371" elapsed="2.672677"/>
+</kw>
+<status status="PASS" start="2024-02-26T15:26:25.130133" elapsed="37.995725"/>
+</test>
+<status status="PASS" start="2024-02-26T15:26:24.714952" elapsed="38.414032"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
